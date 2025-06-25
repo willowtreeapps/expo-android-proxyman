@@ -8,7 +8,7 @@ const withAndroidProxyman: ConfigPlugin = config => {
       fs.mkdirSync(xmlDirPath);
 
       fs.copyFileSync(
-        'modules/expo-android-proxyman/network_security_config.xml',
+        'node_modules/expo-android-proxyman/network_security_config.xml',
         `${xmlDirPath}/network_security_config.xml`,
       );
     }

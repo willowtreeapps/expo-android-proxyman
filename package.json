@@ -1,6 +1,6 @@
 {
   "name": "expo-android-proxyman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "app.plugin.js",
   "scripts": {
     "build": "expo-module build",
