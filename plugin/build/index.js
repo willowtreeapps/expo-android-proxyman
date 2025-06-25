@@ -10,7 +10,7 @@ const withAndroidProxyman = config => {
         const xmlDirPath = 'android/app/src/main/res/xml';
         if (!fs_1.default.existsSync(xmlDirPath)) {
             fs_1.default.mkdirSync(xmlDirPath);
-            fs_1.default.copyFileSync('modules/expo-android-proxyman/network_security_config.xml', `${xmlDirPath}/network_security_config.xml`);
+            fs_1.default.copyFileSync('node_modules/expo-android-proxyman/network_security_config.xml', `${xmlDirPath}/network_security_config.xml`);
         }
         const application = props.modResults.manifest.application;
         if (application) {
